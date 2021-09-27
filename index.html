@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Project 120-121</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+<center>
+
+  <div class="heading">
+    <h4 id="hh">Case study between Google Lens and Mobilenet Model</h4>
+    <span>Google Lens 
+      <img src="Google_Lens_-_new_logo-removebg-preview.png" id="img1">
+    </span>
+    <br>
+    vs
+    <br>
+    <button class="btn btn-info">MobileNet Model</button>
+  </div>
+      <br>
+
+    <div class="col-xs-12 obj">
+      <li class="col-sm-4 col-xs-12">
+          <b>1.  Test Image - </b>
+          <img src="bed.png" class="img-responsive">
+          </li>
+
+          <h5 class="col-sm-4 col-xs-12 gl">
+              Output on Google Lens : Sierra Queen Size Bed
+          </h5>
+
+          <h5 class="col-sm-4 col-xs-12 mm">
+            Output on Mobilenet Model : Safe
+          </h5>
+
+          <div class="col-xs-12" id="results1">
+            <h4>Results - Google Lens</h4>
+            <h4></h4>
+            <hr>
+          </div>
+    </div>
+
+    <div class="col-xs-12 obj">
+      <li class="col-sm-4 col-xs-12">
+          <b>2.  Test Image - </b>
+          <img src="bottle.jpg" class="img-responsive">
+          </li>
+
+          <h5 class="col-sm-4 col-xs-12 gl">
+              Output on Google Lens : Water Bottle
+          </h5>
+
+          <h5 class="col-sm-4 col-xs-12 mm">
+            Output on Mobilenet Model : Water Bottle
+          </h5>
+
+          <div class="col-xs-12" id="results1">
+            <h4>Results - Tie</h4>
+            <h4></h4>
+            <hr>
+          </div>
+    </div>
+
+    <div class="col-xs-12 obj">
+      <li class="col-sm-4 col-xs-12">
+          <b>3.  Test Image - </b>
+          <img src="laptop.jpg" class="img-responsive">
+          </li>
+
+          <h5 class="col-sm-4 col-xs-12 gl">
+              Output on Google Lens : Apple MacBook Pro
+          </h5>
+
+          <h5 class="col-sm-4 col-xs-12 mm">
+            Output on Mobilenet Model : Desktop Computer
+          </h5>
+
+          <div class="col-xs-12" id="results1">
+            <h4>Results - Google Lens</h4>
+            <h4></h4>
+            <hr>
+          </div>
+    </div>
+
+    <div class="col-xs-12 obj">
+      <li class="col-sm-4 col-xs-12">
+          <b>4.  Test Image - </b>
+          <img src="shoe.jpg" class="img-responsive">
+          </li>
+
+          <h5 class="col-sm-4 col-xs-12 gl">
+              Output on Google Lens : Red Canvas Lace Up
+          </h5>
+
+          <h5 class="col-sm-4 col-xs-12 mm">
+            Output on Mobilenet Model : Running Shoes
+          </h5>
+
+          <div class="col-xs-12" id="results1">
+            <h4>Results - Google Lens</h4>
+            <h4></h4>
+            <hr>
+          </div>
+    </div>
+
+    <div class="col-xs-12 obj">
+      <li class="col-sm-4 col-xs-12">
+          <b>5.  Test Image - </b>
+          <img src="sofa.jpg" class="img-responsive">
+          </li>
+
+          <h5 class="col-sm-4 col-xs-12 gl">
+              Output on Google Lens : Small 2 Seater Sofa
+          </h5>
+
+          <h5 class="col-sm-4 col-xs-12 mm">
+            Output on Mobilenet Model : Studio Couch, Day Bed
+          </h5>
+
+          <div class="col-xs-12" id="results1">
+            <h4>Results - Google Lens</h4>
+            <h4></h4>
+            <hr>
+          </div>
+    </div>
+
+    <div class="btn btn-success final_results">
+      I have tested 5 objects here, and from this case study, I have come to a conclusion that Google Lens is better than a MobileNet Model.
+    </div>
+      <br>
+</center>
+    </body>
+    </html>

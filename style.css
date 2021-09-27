@@ -1,0 +1,46 @@
+.heading
+{
+    text-align: center !important;
+}
+
+.obj
+{
+    background-color: coral;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(248, 102, 49);
+    margin-bottom: 60px;
+   width: 250px;
+}
+
+.gl
+{
+    border-radius: 20px;
+    width: 50px;
+    font-size: 20px;
+    background-color:rgb(124, 0, 41);
+    color: white;
+    line-height: 1.5;
+}
+
+.mm
+{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color:rgb(124, 0, 41);
+    color: white;
+    line-height: 1.5;
+}
+
+#img1
+{
+    width: 200px;
+    height: 200px;
+}
+
+.final_results
+{
+    width: 99%;
+    white-space: pre-line;
+    font-size: 30px;
+    font-weight: bold;
+}
